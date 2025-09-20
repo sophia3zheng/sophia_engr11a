@@ -5,209 +5,513 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
+        <title>Freelancer - Start Bootstrap Theme</title>
+        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
                 <a class="navbar-brand" href="#page-top">Sophia Zheng</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <!--<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>-->
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Sophia Zheng</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">I am an undergraduate student studying at Brandeis University for a BS in Computer Science. I want to become a software engineer. </h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
-                    </div>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/portfolio/ZhengSophia copy.jpg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Sophia Zheng</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Student at Brandeis University</p>
             </div>
         </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">ENGR 11a Projects</h2>
-                        <p class="text-white-50">
-                            These are some projects I have created :D
-                            
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/nametag3.jpeg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/spiderpic.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/nintendofinal.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/p2bands2.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/duckfinal.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cupfinal.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 7-->
+                    <!--<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                        </div>
+                    </div>-->
+                    <!-- Portfolio Item 8-->
+                    <!--<div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                        </div>
+                    </div>-->
+                    <!-- Portfolio Item 9-->
+                    <!--<div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">I am an undergraduate student studying at Brandeis University for a BS in Computer Science. I want to become a software engineer.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">I am currently taking Introduction to Design Methodology.</p></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            415 South Street
+                            <br />
+                            Waltham, MA 02453
+                        </p>
+                        <p class="lead mb-0">
+                            sophiazheng@brandeis.edu
+                        </p>
+                        <p class="lead mb-0">
+                            +1 (917) 238-3531
                         </p>
                     </div>
+                    <!-- Footer Social Icons-->
+                    <!--<div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>-->
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        
+                        
+                    </div>
                 </div>
-                <!--<img class="img-fluid" src="assets/img/ipad.png" alt="..." />-->
             </div>
-        </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                
-                <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/nametag2.jpeg" alt="..." /></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/nametag1.jpeg" alt="..." width="300" height="300"/></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/nametag3.jpeg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Nametag</h4>
-                                    <p class="mb-0 text-white-50">My first project was a nametag where I downloaded from the project outline which did not include any documentation. My workflow steps started with importing the nametag stl file into PrusaSlicer and then editing the texts to print my name and aligning it to make it look better. Then I exported it onto a USB drive and filled out the job number request form and put down my information on a sticky note. I inserted the USB into the Prusa Mini printer and let it print. It turned out well however I realized only after I was done printing that the color change did not work. I relearned how to do a color print and I will attempt it on a future project. Something I learned is how to load filament into the printer for color switches to just start a print.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p>&nbsp;&nbsp;&nbsp;</p>
-        
-                <!-- Project Two Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/spider.jpg" alt="..." /></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/spiderprint.jpg" alt="..." /></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/spiderprinttt.jpg" alt="..." /></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/spiderpic.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Torture Test Spider</h4>
-                                    <p class="mb-0 text-white-50">I downloaded a spider torture test from printables that tests overhangs, cooling, bed adhesion, and retraction based on the documentation. The creator recommended if we want to test anything to not try to do multiple chances all at once. They also recommended maximum cooling and a brim if you don’t have great bed adhesion but since we are testing the limits of the printer, I didn’t add or change anything. After printing it, the results turned out really well despite not having any supports and rafts. The only thing that I didn't expect was that the PLA was very stringy because of the printer settings not sucking the filament back in when it switches locations. The spider also did not print the x symbol on its head most likely because I printed it on its head and the bed of the printer melted it smooth. It is around 1.7x2.1 inches which is accurate. Something I learned from this project is how versatile 3D printing is. There is so much you can print and you never know if you don't try printing it. You can really push the limits a lot but some limits include extreme overhangs (if you don’t include supports), accuracy (if the size is too small), etc. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p>&nbsp;&nbsp;&nbsp;</p>
-                <!-- Project Three Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/nintendo.jpg" alt="..." /></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/ninprint.jpg" alt="..." /></div>
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/nintendofinal.jpg" alt="..." /></div>
-                    
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Nintendo Game Controller (single) </h4>
-                                    <p class="mb-0 text-white-50">I downloaded a single Nintendo game controller holder from printables to print as my open-source assistive device. It is made for anyone who likes playing Nintendo. Sometimes when you are playing multiplayer, you only get one side of the controller and this will make it easier to hold without getting cramps in your hand from how small the controller is. It was made by Semmel on Printables. There was little to no documentation mostly because the print is very straightforward so it didn’ need much documentation the documentation is pretty efficient. The documentation told me I didn’t need support, however I still added support just in case because the controller does not print flat on the ground. Some changes I would suggest would be that we would probably simplify the design because this print is very bulky and uses up a lot of filament. My process involved downloading and importing it into Prusa and printing it with organic support. After it was done printing, I removed the supports with pliers. It turned out well, I just kept removing pieces that were necessary. There are parts that are very delicate that I almost broke. Sometimes I learned that I have to be very careful when using pliers or I could potentially ruin the print.</p>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Sophia Zheng</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Nametag</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nametag2.jpeg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nametag1.jpeg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">My first project was a nametag where I downloaded from the project outline which did not include any documentation. My workflow steps started with importing the nametag stl file into PrusaSlicer and then editing the texts to print my name and aligning it to make it look better. Then I exported it onto a USB drive and filled out the job number request form and put down my information on a sticky note. I inserted the USB into the Prusa Mini printer and let it print. It turned out well however I realized only after I was done printing that the color change did not work. I relearned how to do a color print and I will attempt it on a future project. Something I learned is how to load filament into the printer for color switches to just start a print.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Signup-->
-         <!--<section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                         <!--<form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">-->
-                            <!-- Email address input-->
-                             <!--<div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>-->
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                             <!--<div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Torture Test Spider</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/spider.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/spiderprinttt.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/spiderprint.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I downloaded a spider torture test from printables that tests overhangs, cooling, bed adhesion, and retraction based on the documentation. The creator recommended if we want to test anything to not try to do multiple chances all at once. They also recommended maximum cooling and a brim if you don’t have great bed adhesion but since we are testing the limits of the printer, I didn’t add or change anything. After printing it, the results turned out really well despite not having any supports and rafts. The only thing that I didn't expect was that the PLA was very stringy because of the printer settings not sucking the filament back in when it switches locations. The spider also did not print the x symbol on its head most likely because I printed it on its head and the bed of the printer melted it smooth. It is around 1.7x2.1 inches which is accurate. Something I learned from this project is how versatile 3D printing is. There is so much you can print and you never know if you don't try printing it. You can really push the limits a lot but some limits include extreme overhangs (if you don’t include supports), accuracy (if the size is too small), etc.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
                                 </div>
-                            </div>-->
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                             <!--<div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">415 South Street, Waltham, MA 02453</div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Nintendo Game Controller (single)</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nintendo.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ninprint.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I downloaded a single Nintendo game controller holder from printables to print as my open-source assistive device. It is made for anyone who likes playing Nintendo. Sometimes when you are playing multiplayer, you only get one side of the controller and this will make it easier to hold without getting cramps in your hand from how small the controller is. It was made by Semmel on Printables. There was little to no documentation mostly because the print is very straightforward so it didn’ need much documentation the documentation is pretty efficient. The documentation told me I didn’t need support, however I still added support just in case because the controller does not print flat on the ground. Some changes I would suggest would be that we would probably simplify the design because this print is very bulky and uses up a lot of filament. My process involved downloading and importing it into Prusa and printing it with organic support. After it was done printing, I removed the supports with pliers. It turned out well, I just kept removing pieces that were necessary. There are parts that are very delicate that I almost broke. Sometimes I learned that I have to be very careful when using pliers or I could potentially ruin the print.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">sophiazheng@brandeis.edu</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (917) 238-3531</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <!--<a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>-->
                 </div>
             </div>
-            <!--<img class="img-fluid" src="assets/img/ipad.png" alt="..." />-->
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5"></div></footer>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Hair Band Holder</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sketchbands.jpg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/p2bands.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">My idea for this project was to make an item that could hold something so I started on I wanted to make a hairband holder with hooks on the side for extra hairhand storage. I will also print my name on it to personalize it. I started the project on TinkerCAD. I learned that TinkerCAD is very easy for beginners to use since it has lots of pre-made items like diamonds, stars, hearts, etc. The difficult part is rounding out the sides because it is not a feature on TinkerCAD so I have to do it myself. It is also difficult to adjust blocks because it autolocks in place and so I have to put in coordinates when I want to place it somewhere specific or else it will be out of place. Then, I moved on and remade it on Fusion which was much easier because I could be more exact with my measurements and it has a Fillet tool to round out the edges. Fusion is more advanced than TinkerCAD and I was able to make it much faster. Since I have some experience with SolidWorks and Onshape, Fusion was more comfortable to use. I have to relearn some of the controls because they were different from what I was used to on OnShape. Something I could have done better and worked on more is the sizing because the sizes of the two holders do not match up. Both physical phototypes look good but the “Sophia” text on TinkerCAD looks better because I couldn’t get how to adjust the text on Fusion. But overall, I prefer Fusion over TinkerCAD. I did not print this project so there was no CAM involved and no influences resulting in my print. I achieved my goal of understanding TinkerCAD and Fusion better and what my preferences are in a CAD application. I could optimize my design further by making it wider because it may not be easy for people with larger hands to reach into since it is a pretty small model. Something in the design that I would like to change would be its visual design because it's not the most pleasant to look at, it is very basic. I could make it more stylistic with curves and designs. </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Duckie Keycap</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sketchduck.jpeg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/duck1.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/duck2.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/duck3.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/duck5.jpeg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">My idea for this project was a cute duckie keycap with accessories. I planned it on paper of accessories I could give the duckie. After I had it all planned out, I downloaded a duckie keycap off printables as a stl file and I imported it into TinkerCAD. I decided on a top hat and a tie. Making the hat was easy since it was just two cylinders that I resized. However, for the tie, TinkerCAD did not have the correct shapes so I had to merge and group shapes like triangles and rectangles to make the shake. It was also hard to position it right without the tie going straight into the duck. Some tips I have for using TinkerCAD would be utilizing the little measurement popup, you can click it and edit the number on how far you want to move the object. It is way more precise than using the arrow and dragging the object. A question I have about TinkerCAD is if there is an easier way to make new shapes that aren’t already provided by TinkerCAD. After finishing my remixing on TinkerCAD, I saved it and imported it into Prusa Slicer. It recommended a raft and supports so I made organic supports and a size 2 raft. Then I exported it onto a usb and printed it in a gold color. After printing, I removed the raft and supports and it turned out really well. I achieved my goal because I was able to successfully print duckie keycaps. A design element I would change to improve it would be the sizing. I may have printed a bit too small to put on my keyboard but other than that, it turned out really well. I learned that I should print them a little bigger to give it some wiggle room since the printer isn’t the most accurate. To optimize my design, I would make a different accessory instead of a top hat because a top hat makes the key hard to press, I should choose a flatter accessory for the duckie’s head so the user has a more comfortable time typing. But other than that, the duckie printed out and looks really nice. </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Pencil Holder</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sketchcup.jpeg" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cup1.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cup2.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cup3.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cup4.jpeg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">For my Fusion remix, I didn’t want to do the duckie keycap again and I wanted to try remixing with multiple stl files instead. I started sketching and I decided on a cup with flowers. Something I had a lot of difficulty with on this project was finding something to remix because every design I came across looked so complex that if I remixed it, it would look even worse. Originally, I wanted to do an animal cup but I decided on an cup and then I found a flower that I liked. I searched on printables for a good design and found an abstract cup and small flowers that I liked. I put the cup into Fusion and then I added the flower and repositioned and scaled it. It looked like a long time because I needed to make sure the flowers were attached and not floating in air but also that they weren't stuck in the cup. I kept copy and pasting the flowers around my cup. After I finished, I realized the holder wasn’t hollow so I had to convert the mesh into a solid but by doing that, since the holder was so complex and contained over 10,000 thousand triangles, my Fusion crashed and I had to restart. I had to decimate the dense mesh so my computer could handle it. Then I extruded inwards to make a hole. It was extremely frustrating because I was scared that it wouldn’t work and I would have to restart and choose a new design. However, Professor Krones assisted me and helped me instruct me on what to do. Eventually, I successfully changed it into a solid and hollowed it out but by then, I wanted to change my design. I changed my design by adding a scary face and t-rex arms onto it. I also added a torus at the top just for experimentation. This whole process was very hard and I had to watch lots of tutorials and I managed to complete it in the end. After the CAD was done, I moved onto CAM. I exported it onto Prusa Slicer and scaled it down and added organic supports. After printing, I removed all of the supports and it turned out super nice. It turned out way better than I expected it to look. I achieved my goal of creating a pencil holder but it just has a different design on it than I imagined. To optimize my design, I can learned to hollow out more sides. I would need to learn different methods because I am working with a complex shape. By hollowing it out more, I can allow the holder to hold more items. I would change the design to look less scary because while I think it is very creative and funny, some people may be scared of it. But overall, it turned out super well. </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Modal 7-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
